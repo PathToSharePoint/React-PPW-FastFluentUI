@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-wwp-fast-fluent-ui-client-side-solution",
+    "id": "05a5971c-666e-447f-8608-b3c3d4926914",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0-beta.5"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "react-wwp-fast-fluent-ui description"
+      },
+      "longDescription": {
+        "default": "react-wwp-fast-fluent-ui description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-wwp-fast-fluent-ui Feature",
+        "description": "The feature that activates elements of the react-wwp-fast-fluent-ui solution.",
+        "id": "f138fd19-fb12-4c2b-85f3-6ef899c09c54",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-wwp-fast-fluent-ui.sppkg"
+  }
+}
