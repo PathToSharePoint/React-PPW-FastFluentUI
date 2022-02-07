@@ -1,14 +1,4 @@
-# react-wwp-fast-fluent-ui
-
-## Summary
-
-Short summary on functionality and used technologies.
-
-[picture of the solution in action, if possible]
-
-## Used SharePoint Framework Version
-
-![version](https://img.shields.io/badge/version-1.13-green.svg)
+# React-PPW-FastFluentUI
 
 ## Applies to
 
@@ -17,28 +7,43 @@ Short summary on functionality and used technologies.
 
 > Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
 
-## Prerequisites
+## Summary
 
-> Any special pre-requisites?
+The React-PPW-FastFluentUI sample showcases the use of the [Property Pane Wrap](https://www.npmjs.com/package/property-pane-wrap) to embed [Fast Fluent UI](https://www.npmjs.com/package/@fluentui/web-components) controls in the SPFx Property Pane.
+
+![React PPW FastFluentUI Sample](./assets/React-PPW-FastFluentUI-Sample.png)
+## Compatibility
+
+![Compatible with SharePoint Online](https://img.shields.io/badge/SharePoint%20Online-Compatible-green.svg)
+![Does not work with SharePoint 2019](https://img.shields.io/badge/SharePoint%20Server%202019-Incompatible-red.svg "SharePoint Server 2019 requires SPFx 1.4.1 or lower")
+![Does not work with SharePoint 2016 (Feature Pack 2)](https://img.shields.io/badge/SharePoint%20Server%202016%20(Feature%20Pack%202)-Incompatible-red.svg "SharePoint Server 2016 Feature Pack 2 requires SPFx 1.1")
+![Hosted Workbench Compatible](https://img.shields.io/badge/Hosted%20Workbench-Compatible-green.svg)
+
+## Used SharePoint Framework Version
+
+![1.14.0.beta.5](https://img.shields.io/badge/version-1.14.0.beta.5-green.svg)
 
 ## Solution
 
 Solution|Author(s)
 --------|---------
-folder name | Author details (name, company, twitter alias with link)
+React-PPW-FastFluentUI | [Christophe Humbert](https://github.com/PathToSharePoint)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
+0.1.0|February 6, 2022|Initial release
 
 ## Disclaimer
 
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 ---
+
+## Prerequisites
+
+Fluent UI Web Components are built on top of the Web Components system and supported in modern browsers.
 
 ## Minimal Path to Awesome
 
@@ -48,21 +53,12 @@ Version|Date|Comments
   - **npm install**
   - **gulp serve**
 
-> Include any additional steps as needed.
-
 ## Features
 
-Description of the extension that expands upon high-level summary above.
-
-This extension illustrates the following concepts:
-
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
+The sample web part illustrates the following concepts on top of the SharePoint Framework:
+- Fluent UI Web Components [React integration](https://docs.microsoft.com/en-us/fluent-ui/web-components/integrations/react)
+- [Property Pane Wrap](https://www.npmjs.com/package/property-pane-wrap) for insertion of components in the Property Pane
+- [FastFluentUI controls](https://FastFluentUI.dev/) (React integration) in the Property Pane
 
 ## References
 

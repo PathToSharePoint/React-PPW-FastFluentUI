@@ -18,11 +18,12 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
     "group": { "default": "Other" },
-    "title": { "default": "HelloWorld" },
-    "description": { "default": "HelloWorld description" },
-    "officeFabricIconFontName": "Page",
+    "title": { "default": "React-PPW-FastFluentUI" },
+    "description": { "default": "React-PPW-FastFluentUI" },
+    "officeFabricIconFontName": "PageHeaderEdit",
     "properties": {
-      "description": "HelloWorld"
+      "description": "HelloWorld",
+      "fluentTextField": " "
     }
   }]
 }

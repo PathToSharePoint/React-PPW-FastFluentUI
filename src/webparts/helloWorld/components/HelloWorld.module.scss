@@ -32,3 +32,15 @@
     }
   }
 }
+
+.propertyTable {
+  border-collapse: collapse;
+  th {
+    padding: 10px;
+  }
+  td {
+    text-align: left;
+    border: 1px solid teal;
+    padding: 10px;
+  }
+}

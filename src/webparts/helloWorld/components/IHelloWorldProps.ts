@@ -1,5 +1,5 @@
 export interface IHelloWorldProps {
-  description: string;
+  properties: object;
   isDarkTheme: boolean;
   environmentMessage: string;
   hasTeamsContext: boolean;

@@ -8,7 +8,7 @@
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "developer": {
-      "name": "",
+      "name": "Christophe Humbert",
       "websiteUrl": "",
       "privacyUrl": "",
       "termsOfUseUrl": "",
@@ -16,10 +16,10 @@
     },
     "metadata": {
       "shortDescription": {
-        "default": "react-wwp-fast-fluent-ui description"
+        "default": "react-wwp-fast-fluent-ui"
       },
       "longDescription": {
-        "default": "react-wwp-fast-fluent-ui description"
+        "default": "react-wwp-fast-fluent-ui"
       },
       "screenshotPaths": [],
       "videoUrl": "",

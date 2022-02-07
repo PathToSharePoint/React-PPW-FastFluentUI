@@ -6,7 +6,7 @@ import { escape } from '@microsoft/sp-lodash-subset';
 export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
   public render(): React.ReactElement<IHelloWorldProps> {
     const {
-      description,
+      properties,
       isDarkTheme,
       environmentMessage,
       hasTeamsContext,
@@ -16,10 +16,24 @@ export default class HelloWorld extends React.Component<IHelloWorldProps, {}> {
     return (
       <section className={`${styles.helloWorld} ${hasTeamsContext ? styles.teams : ''}`}>
         <div className={styles.welcome}>
+          <h2>Select the Edit button to open the Property Pane.</h2>
           <img alt="" src={isDarkTheme ? require('../assets/welcome-dark.png') : require('../assets/welcome-light.png')} className={styles.welcomeImage} />
           <h2>Well done, {escape(userDisplayName)}!</h2>
           <div>{environmentMessage}</div>
-          <div>Web part property value: <strong>{escape(description)}</strong></div>
+          <table className={styles.propertyTable}>
+            <tr>
+              <th>Property</th>
+              <th>Value</th>
+            </tr>
+            {Object.keys(properties).map(key => {
+              return (
+                <tr key={key}>
+                  <td>{key}</td>
+                  <td><strong>{escape(properties[key])}</strong></td>
+                </tr>
+              );
+            })}
+          </table>
         </div>
         <div>
           <h3>Welcome to SharePoint Framework!</h3>
